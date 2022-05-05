@@ -1,6 +1,6 @@
 [![Header](./assets/prof-pic.jpg "Header")](https://some-url.dev/)
 
-# Hi
+# Hi there
 
 I am Xander Burnett. I am interested in game development and app development.
 
