@@ -15,6 +15,7 @@
     flex-direction: column;
     align-items: center;
     height: 100%;
+    padding: 0;
 }
 
 .hero-banner .image{
@@ -136,18 +137,31 @@ footer{
     flex-direction: row;
     align-items: center;
     background-color: #8f8f8f;
+    justify-content: end;
 }
 
 footer .nav{
-
+    height: 100%;
+    padding-right: 15px;
 }
 
 .nav ul{
-
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
 }
 
 .nav ul li{
-    
+    width: fit-content;
+    min-width: 40px;
+    min-height: 40px;
+    height: fit-content;
+    display: grid;
+    place-content: center;
+    font-size: 20px;
 }
 
 
@@ -155,6 +169,12 @@ footer .nav{
 /* media q */
 
 @media screen and (min-width: 320px){
+    .description p{
+        font-size: 18px;
+    }
+    .description h3{
+        font-size: 26px;
+    }
     nav{display: none;}
     .mobile-nav {display: block;}
 }
@@ -163,6 +183,12 @@ footer .nav{
     .mobile-nav { display: block; }
 }
 @media screen and (min-width: 768px){
+    .description p{
+        font-size: 28px;
+    }
+    .description h3{
+        font-size: 35px;
+    }
     .container, .row-container {
         max-width: 800px;
     }
