@@ -60,3 +60,15 @@ header div nav ul li a:hover{
     background-color: #07703f;
     color: #d4d4d4;
 }
+
+
+.mobile-nav{
+    overflow: hidden;
+}
+.mobile-nav p i{
+    margin-top: 18px;
+    font-size: 20px;
+    color: var(--header-text);
+    text-decoration: none;
+    cursor: pointer;
+}
