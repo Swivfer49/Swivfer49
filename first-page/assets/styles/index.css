@@ -4,7 +4,6 @@
 .hero-banner{
     width: 100%;
     background-color: #f7f7f7;
-    box-shadow: 0 20px 48px 0 rgba(59, 69, 152, 0.15);
     padding: 45px;
     display: flex;
     flex-direction: column;
@@ -121,13 +120,34 @@
 }
 
 .links ul li a i{
-    color: #1b1b1b;
+    color: #8a9e89;
 }
 
 .links ul li:hover{
     transform: scale(1.3);
     box-shadow: 0 0 12px 6px #f7f7f740;
     border-radius: 6px;
+}
+
+
+footer{
+    height: 75px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #8f8f8f;
+}
+
+footer .nav{
+
+}
+
+.nav ul{
+
+}
+
+.nav ul li{
+    
 }
 
 
